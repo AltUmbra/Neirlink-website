@@ -41,7 +41,7 @@ try {
         //redirects to the page if referer is valid
         $referer = $_SERVER['HTTP_REFERER'] ?? '/'; // Fallback if HTTP_REFERER is not set
     
-        if (strpos($referer, 'neirlink.com') === false) {
+        if (strpos($referer, 'mediadrift.com') === false) {
             $referer = '/'; // Set default redirection if referer is invalid
         }
     
@@ -70,3 +70,4 @@ try {
     ]);
     exit;
 }
+
