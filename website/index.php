@@ -19,7 +19,7 @@ require_once(__DIR__ . '/back/functions.php');
         <?php require_once(__DIR__ . '/back/header.php'); ?>
     </header>
     <main>
-        <h1>Welcome on Neirlink</h1>
+        <h1>Welcome on MediaDrive</h1>
         <a class="nav-link" href="user_sign_out">Déconnexion</a>
     </main>
     <footer>
@@ -27,4 +27,5 @@ require_once(__DIR__ . '/back/functions.php');
     </footer>
 
 </body>
+
 </html>
